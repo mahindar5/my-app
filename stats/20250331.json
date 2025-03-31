@@ -10071,13 +10071,24 @@
       ],
       "format": "esm"
     },
-    "node_modules/@firebase/util/dist/index.esm2017.js": {
-      "bytes": 67148,
+    "node_modules/@firebase/util/dist/postinstall.mjs": {
+      "bytes": 90,
       "imports": [],
       "format": "esm"
     },
+    "node_modules/@firebase/util/dist/index.esm2017.js": {
+      "bytes": 65893,
+      "imports": [
+        {
+          "path": "node_modules/@firebase/util/dist/postinstall.mjs",
+          "kind": "import-statement",
+          "original": "./postinstall.mjs"
+        }
+      ],
+      "format": "esm"
+    },
     "node_modules/@firebase/component/dist/esm/index.esm2017.js": {
-      "bytes": 15037,
+      "bytes": 14943,
       "imports": [
         {
           "path": "node_modules/@firebase/util/dist/index.esm2017.js",
@@ -10088,7 +10099,7 @@
       "format": "esm"
     },
     "node_modules/@firebase/logger/dist/esm/index.esm2017.js": {
-      "bytes": 6534,
+      "bytes": 6480,
       "imports": [],
       "format": "esm"
     },
@@ -10119,7 +10130,7 @@
       "format": "esm"
     },
     "node_modules/@firebase/app/dist/esm/index.esm2017.js": {
-      "bytes": 39459,
+      "bytes": 41188,
       "imports": [
         {
           "path": "node_modules/@firebase/component/dist/esm/index.esm2017.js",
@@ -10150,7 +10161,7 @@
       "format": "esm"
     },
     "node_modules/firebase/app/dist/esm/index.esm.js": {
-      "bytes": 788,
+      "bytes": 772,
       "imports": [
         {
           "path": "node_modules/@firebase/app/dist/esm/index.esm2017.js",
@@ -10165,8 +10176,8 @@
       ],
       "format": "esm"
     },
-    "node_modules/@firebase/auth/dist/esm2017/index-68602d24.js": {
-      "bytes": 420667,
+    "node_modules/@firebase/auth/dist/esm2017/index-e84cf44d.js": {
+      "bytes": 429802,
       "imports": [
         {
           "path": "node_modules/@firebase/app/dist/esm/index.esm2017.js",
@@ -10200,9 +10211,9 @@
       "bytes": 2260,
       "imports": [
         {
-          "path": "node_modules/@firebase/auth/dist/esm2017/index-68602d24.js",
+          "path": "node_modules/@firebase/auth/dist/esm2017/index-e84cf44d.js",
           "kind": "import-statement",
-          "original": "./index-68602d24.js"
+          "original": "./index-e84cf44d.js"
         },
         {
           "path": "node_modules/@firebase/app/dist/esm/index.esm2017.js",
@@ -11729,7 +11740,7 @@
       "format": "esm"
     },
     "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib.mjs": {
-      "bytes": 144886,
+      "bytes": 144887,
       "imports": [
         {
           "path": "node_modules/@angular/core/fesm2022/core.mjs",
@@ -12056,7 +12067,7 @@
     }
   },
   "outputs": {
-    "main-4R3QOEIV.js": {
+    "main-KAUOAFHO.js": {
       "imports": [
         {
           "path": "chunk-EOF2XWZQ.js",
@@ -12358,8 +12369,11 @@
         "node_modules/@angular/service-worker/fesm2022/service-worker.mjs": {
           "bytesInOutput": 4927
         },
+        "node_modules/@firebase/util/dist/postinstall.mjs": {
+          "bytesInOutput": 14
+        },
         "node_modules/@firebase/util/dist/index.esm2017.js": {
-          "bytesInOutput": 8482
+          "bytesInOutput": 8488
         },
         "node_modules/@firebase/component/dist/esm/index.esm2017.js": {
           "bytesInOutput": 4284
@@ -12368,7 +12382,7 @@
           "bytesInOutput": 1735
         },
         "node_modules/@firebase/app/dist/esm/index.esm2017.js": {
-          "bytesInOutput": 9366
+          "bytesInOutput": 9482
         },
         "node_modules/idb/build/wrap-idb-value.js": {
           "bytesInOutput": 2017
@@ -12377,10 +12391,10 @@
           "bytesInOutput": 1051
         },
         "node_modules/firebase/app/dist/esm/index.esm.js": {
-          "bytesInOutput": 47
+          "bytesInOutput": 46
         },
-        "node_modules/@firebase/auth/dist/esm2017/index-68602d24.js": {
-          "bytesInOutput": 70212
+        "node_modules/@firebase/auth/dist/esm2017/index-e84cf44d.js": {
+          "bytesInOutput": 72210
         },
         "node_modules/@firebase/auth/dist/esm2017/index.js": {
           "bytesInOutput": 0
@@ -12434,13 +12448,13 @@
           "bytesInOutput": 57240
         },
         "node_modules/@mahindar5/ng-common-mat-lib/fesm2022/mahindar5-ng-common-mat-lib.mjs": {
-          "bytesInOutput": 54089
+          "bytesInOutput": 54090
         },
         "src/main.ts": {
           "bytesInOutput": 42
         }
       },
-      "bytes": 882805
+      "bytes": 884939
     },
     "chunk-JNU7PQTC.js": {
       "imports": [
