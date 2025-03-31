@@ -1,4 +1,4 @@
-name: my-app-deploy
+name: build-deploy-pages
 
 on:
   push:
